@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Leaf
+  m_Shader: {fileID: 4800000, guid: 17028a43b8e878142ad13e0279e9c103, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DisplacementGuide:
+        m_Texture: {fileID: 2800000, guid: dc2f2f50abd7498489485feb0d6cbe19, type: 3}
+        m_Scale: {x: 2.21, y: 1.32}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: c0c0ec299d4c80644bbd547d04e4003f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DisplacementAmount: 0.11
+    - _DisplacementSpeed: 0.3
+    - _Glossiness: 0.5
+    - _LightCutoff: 0.706
+    - _Metallic: 0
+    - _RimSize: 0.918
+    - _SSSConcentration: 1
+    - _ShadowedRim: 0
+    - _TextureCutoff: 0.057
+    m_Colors:
+    - _Color: {r: 0.26432893, g: 0.33962262, b: 0.3207992, a: 1}
+    - _Emission: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 1}
+    - _RimColor: {r: 0.036845844, g: 0.07605718, b: 0.11320752, a: 1}
+    - _SSSColor: {r: 0.21893913, g: 0.3773585, b: 0.21893913, a: 1}
+  m_BuildTextureStacks: []
